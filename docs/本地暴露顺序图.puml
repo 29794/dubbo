@@ -37,7 +37,7 @@ activate ProxyFactory
 
 ServiceConfig -> "Protocol$Adaptive": export(invoker:Invoker<T>):Exporter<T>
 
-note left:获取Exporter
+note left:获取 Exporter
 
 box "实际上是根据 URL 获取的 Protocol 拓展实现类" #Pink
     participant "Protocol$Adaptive"
